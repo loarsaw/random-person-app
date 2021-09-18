@@ -102,6 +102,9 @@ function App() {
               <FaLock />
             </button>
           </div>
+          <button className="btn" type="submit" onClick={getUser}>
+            New User
+          </button>
         </div>
       </div>
     </div>
